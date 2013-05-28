@@ -24,7 +24,7 @@ while(i<len(p)):
             pt=32767
     if c=='>':
         pt+=1
-  	pt%=32768
+		pt%=32768
     if c=='.':
         ans+=chr(t[pt])
     if c=='[':
