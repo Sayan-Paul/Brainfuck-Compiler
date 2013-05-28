@@ -30,7 +30,7 @@ Brainfuck programs can be translated into C using the following substitutions, a
 brainfuck command 	C equivalent
 (Program Start) 	char array[30000];
 char *ptr=array;
-\ >  	++ptr;
+  >  	++ptr;
   < 	--ptr;
   + 	++*ptr;
   - 	--*ptr;
